@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>pepsi</title>
+</head>
+<body>
+    <div class="container">
+        <div class="shape"></div>
+        <div class="navbar">
+            <a href="#" class="logo"><img src="../images/logo.png" alt="logo" class="logo"></a>
+            <nav>
+                <ul role="list" class="navbar-items">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="content">
+            <div class="content-text">
+                <h2 class="product-header">Não é apenas uma bebida<br>
+                    é <span>Pepsi!</span>
+                </h2>
+                <p class="product-des">Pepsi, uma efervescente indulgência, borbulha com a doçura equilibrada de sua fórmula secreta. Em cada gole, a refrescância dança no paladar, enquanto a icônica bebida cola continua a cativar corações com sua ousadia e sabor inconfundível. Uma explosão de prazer efervescente, Pepsi transcende as expectativas, conquistando admiradores ao redor do mundo
+                </p>
+            <button class="learn-more">saiba mais</button>
+            </div>
+
+            <div class="content-picture">
+                <img src="../images/blue_pepsi.png" alt="pepsi" class="pepsi">
+                <div class="socials">
+                    <ul class="social-media">
+                        <li><img src="../images/facebook.png" alt=""></li>
+                        <li><img src="../images/twitter.png" alt=""></li>
+                        <li><img src="../images/instagram.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="thumb">
+            <ul class="product-gallery">
+                <li><img src="../images/blue_pepsi.png" onclick="imgSlide('../images/blue_pepsi.png');changeColors('#004b93')"></li>
+                <li><img src="../images/silver_pepsi.png" onclick="imgSlide('../images/silver_pepsi.png');changeColors('#c3c7c7')"></li>
+                <li><img src="../images/black_pepsi.png" onclick="imgSlide('../images/black_pepsi.png');changeColors('black')"></li>
+            </ul>
+        </div>
+
+    </div>
+    
+    <script src="../javascript/main.js"></script>
+</body>
+</html>
